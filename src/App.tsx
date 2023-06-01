@@ -8,9 +8,6 @@ function App() {
   return (
     <main className="checks">
       <Checkbox onChange={setChecked} checked={checked} />
-      <Checkbox onChange={setChecked} checked={checked} />
-      <Checkbox onChange={setChecked} checked={checked} />
-      <Checkbox onChange={setChecked} checked={checked} />
     </main>
   );
 }
