@@ -8,7 +8,6 @@ type Props = {
 
 const Checkbox = ({ onChange, checked }: Props) => {
   const handleCheckboxChange = (event: ChangeEvent<HTMLInputElement>) => {
-    console.log("click");
     const isChecked = event.target.checked;
     onChange(isChecked);
   };
@@ -21,7 +20,6 @@ const Checkbox = ({ onChange, checked }: Props) => {
         type="checkbox"
         checked={checked}
       />
-      <span className="checkmark"></span>
     </>
   );
 };
